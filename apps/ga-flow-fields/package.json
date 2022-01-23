@@ -1,0 +1,17 @@
+{
+  "name": "ga-flow-fields",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "source": "./src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild ./src/index.ts --bundle --outfile=./dist/index.js"
+  },
+  "devDependencies": {
+    "config": "*",
+    "ga-canvas": "*",
+    "tsconfig": "*",
+    "esbuild": "^0.14.13"
+  }
+}

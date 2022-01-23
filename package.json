@@ -1,6 +1,6 @@
 {
-  "name": "turborepo-basic-shared",
-  "version": "0.0.0",
+  "name": "ga-ts",
+  "version": "0.1.0",
   "private": true,
   "workspaces": [
     "apps/*",
@@ -23,8 +23,7 @@
           "^build"
         ],
         "outputs": [
-          "dist/**",
-          ".next/**"
+          "dist/**"
         ]
       },
       "lint": {
