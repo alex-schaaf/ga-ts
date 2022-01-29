@@ -1,17 +1,18 @@
 {
   "name": "ga-flow-fields",
   "version": "0.1.0",
+  "license": "MIT",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "source": "./src/index.ts",
-  "license": "MIT",
   "scripts": {
-    "build": "esbuild ./src/index.ts --bundle --outfile=./dist/index.js"
+    "start": "snowpack dev",
+    "build": "snowpack build"
   },
   "devDependencies": {
     "config": "*",
     "ga-canvas": "*",
-    "tsconfig": "*",
-    "esbuild": "^0.14.13"
+    "snowpack": "^3.8.8",
+    "tsconfig": "*"
   }
 }

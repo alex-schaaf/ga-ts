@@ -1,20 +1,21 @@
 {
   "name": "ga-canvas",
-  "version": "0.0.0",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "source": "./src/index.ts",
-  "private": true,
+  "version": "0.1.0",
   "license": "MIT",
+  "description": "Utilities for Generative Art on HTML Canvas.",
+  "main": "./build/src/index.js",
+  "types": "./build/src/index.d.ts",
   "files": [
     "dist/**"
   ],
   "scripts": {
-    "build": "esbuild ./src/index.ts --bundle --outfile=./dist/index.js"
+    "start": "snowpack dev",
+    "build": "snowpack build"
   },
   "devDependencies": {
     "config": "*",
-    "tsconfig": "*",
-    "esbuild": "^0.14.13"
+    "esbuild": "^0.14.13",
+    "snowpack": "^3.8.8",
+    "tsconfig": "*"
   }
 }
