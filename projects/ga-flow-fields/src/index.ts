@@ -5,6 +5,7 @@ if (ctx === null) {
   window.stop();
   throw new Error("Unable to get canvas context.");
 }
+console.log("test");
 
 document.body.appendChild(canvas);
 
